@@ -1,0 +1,36 @@
+@import '../config';
+
+
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 6px rgb(237, 237, 237);
+  z-index: 1000;
+
+  .logoDiv {
+    .logo {
+      width: 150px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .navbar {
+      position: absolute;
+      background: $secondaryColor;
+      width: 80%;
+      top: 7rem;
+      right: 50%;
+      transform: translate(-50%);
+      border-radius: 10px;
+      text-align: center;
+      padding: 2rem;
+      transition: 0.3s ease;
+      z-index: 2000;
+    }
+  }
+}

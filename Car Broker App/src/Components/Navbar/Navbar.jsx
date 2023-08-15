@@ -1,8 +1,12 @@
 import React from "react";
-import './css/Navbar.css';
+import '../../css/App.css';
 
-//Import Images
+//Imported Images
 import logo from '../../Assets/logo.png'
+
+//Imported Icons
+import { IoIosCloseCircle } from 'react-icons/io'
+import { TbGridDots } from 'react-icons/tb'
 
 const Navbar = () => {
   return (
@@ -30,6 +34,15 @@ const Navbar = () => {
           </li>
         </ul>
           {/*Added an Icon that will close the navbar on small screens */}
+          <IoIosCloseCircle className='icon' />
+          
+
+      </div>
+
+      <div className="signUp flex">
+        <div className="text">Sign Up</div>
+        {/*Added an Icon that will open the navbar on small screens */}
+        <TbGridDots className='icon' />
       </div>
     </div>
   )
