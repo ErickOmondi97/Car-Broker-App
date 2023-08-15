@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/Auction.css';
+import '../../css/App.css';
 
 const Auction = () => {
   return (
