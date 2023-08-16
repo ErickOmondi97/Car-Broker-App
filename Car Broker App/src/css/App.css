@@ -1,8 +1,282 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600:700&display=swap");
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 6px rgb(237, 237, 237);
+  z-index: 1000;
+}
+.header .logoDiv .logo {
+  width: 25px;
+}
+@media screen and (max-width: 768px) {
+  .header .navbar {
+    position: absolute;
+    background: #ebe8fc;
+    width: 80%;
+    top: -17rem;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    border-radius: 10px;
+    text-align: center;
+    padding: 2rem;
+    transition: 0.3s ease;
+    z-index: 2000;
+  }
+  .header .navbar .closeIcon {
+    position: absolute;
+    bottom: -15px;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    background: #ebe8fc;
+    color: #7a63f1;
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 35px;
+  }
+  .header .navbar .closeIcon:hover {
+    color: red;
+  }
+  .header .menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .header .menu .listItem {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .header .menu .listItem a {
+    font-size: 15px;
+  }
+  .header .menu .listItem:hover {
+    background: #7a63f1;
+    color: #f5f4fa;
+    transition: 0.3s ease;
+  }
+  .header .menu .listItem:hover a {
+    color: #f5f4fa;
+    transition: 0.3s ease;
+  }
+}
+.header .signUp {
+  gap: 0.5rem;
+}
+.header .signUp .text {
+  padding: 3px 10px;
+  background: #7a63f1;
+  border-radius: 3px;
+  color: #f5f4fa;
+  cursor: pointer;
+  font-size: 14px;
+}
+.header .signUp .text:hover {
+  background: #ebe8fc;
+  color: #434344;
+}
+.header .signUp .toggleNavbarIcon {
+  background: none;
+  color: #7a63f1;
+  font-weight: 600;
+  font-size: 25px;
+}
+.header .showNavbar {
+  top: 7rem;
+  transition: 0.5s ease;
+}
+
+.home {
+  padding-top: 8rem;
+}
+
+.secContainer {
+  padding: 0 1.5rem;
+  text-align: center;
+  display: grid;
+  gap: 2rem;
+}
+.secContainer .homeText .homeSpan {
+  color: #a3a3a3;
+  font-weight: 400;
+  font-size: 15px;
+}
+.secContainer .homeText .homeTitle {
+  color: #434344;
+  font-weight: 700;
+  font-size: 30px;
+}
+.secContainer .homeText .btns {
+  gap: 1.5rem;
+  justify-content: center;
+}
+.secContainer .homeText .btns .btn {
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  font-size: 12px;
+}
+.secContainer .homeText .btns .btn:hover {
+  background: #7a63f1;
+  color: #f5f4fa;
+}
+.secContainer .homeText .btns .btn:nth-child(1) {
+  background: #f5f4fa;
+  color: #a3a3a3;
+}
+.secContainer .homeText .btns .btn:nth-child(1):hover {
+  background: #7a63f1;
+  color: #f5f4fa;
+}
+.secContainer .homeImage {
+  margin: auto;
+}
+
+.search {
+  padding: 2rem 0;
+}
+.search .title {
+  color: #434344;
+  font-size: 22px;
+  padding: 1rem 0;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.7rem;
+}
+.search .searchDiv {
+  gap: 0.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.search .searchDiv input {
+  border-radius: 10px;
+  border: 1px solid #ebe8fc;
+  padding: 5px 10px;
+  outline: none;
+  width: 100%;
+}
+.search .searchDiv input:focus {
+  border: none;
+  border: 1px solid #7a63f1;
+}
+.search .searchDiv .btn {
+  justify-content: center;
+  width: 100%;
+  align-self: center;
+  gap: 0.3rem;
+}
+.search .searchDiv .btn .icon {
+  font-size: 15px;
+}
+
+.trending .secContainer .secHeading {
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.trending .secContainer .secHeading .navBtns {
+  gap: 0.5rem;
+}
+.trending .secContainer .secHeading .navBtns .icon {
+  padding: 3px 5px;
+  background: #ebe8fc;
+  border-radius: 3px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.trending .secContainer .secHeading .navBtns .icon:hover {
+  background: #7a63f1;
+  color: #f5f4fa;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   transition: 0.2s ease-in-out;
   font-family: "Titillium Web", sans-serif;
+}
+
+/* DEFAULT STYLING */
+/* :root {
+  --primaryColor: #7a63f1;
+  --secondaryColor: #ebe8fc;
+  --textColor: #a3a3a3;
+  --greyColor: #f4f4f4;
+  --whiteColor: #f5f4fa;
+  --blackColor: #434344;
+} */
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+p {
+  color: #a3a3a3;
+  line-height: 1.4rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.primaryBtn {
+  background: #7a63f1;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-weight: 600;
+  color: #f5f4fa;
+  font-size: 12px;
+}
+.primaryBtn:hover {
+  background: #ebe8fc;
+  color: #434344;
+}
+
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.section {
+  padding: 4rem 0.2rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.icon {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.secTitle {
+  color: #a3a3a3;
+  font-size: 20px;
 }/*# sourceMappingURL=App.css.map */
