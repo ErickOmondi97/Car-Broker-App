@@ -1,0 +1,25 @@
+.trending {
+  .secContainer {
+    .secHeading {
+      justify-content: space-between;
+      padding: 1rem 0;
+
+      .navBtns {
+        gap: 0.5rem;
+
+        .icon {
+          padding: 3px 5px;
+          background: $secondaryColor;
+          border-radius: 3px;
+          font-size: 30px;
+          cursor: pointer;
+
+          &:hover {
+            background: $primaryColor;
+            color: $whiteColor;
+          }
+        }
+      }
+    }
+  }
+}
