@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600:700&display=swap');
+@import './Components/Navbar/Navbar';
+@import './Components/config';
+@import './Components/Home/Home';
+@import './Components/Search/Search';
+@import './Components/Trending/Trending';
 
 * {
   padding: 0;
@@ -7,3 +12,98 @@
   transition: 0.2s ease-in-out;
   font-family: 'Titillium Web', sans-serif;
 }
+
+/* DEFAULT STYLING */
+/* :root {
+  --primaryColor: #7a63f1;
+  --secondaryColor: #ebe8fc;
+  --textColor: #a3a3a3;
+  --greyColor: #f4f4f4;
+  --whiteColor: #f5f4fa;
+  --blackColor: #434344;
+} */
+
+//colors
+$primaryColor: #7a63f1;
+$secondaryColor: #ebe8fc;
+$textColor: #a3a3a3;
+$greyColor: #f4f4f4;
+$whiteColor: #f5f4fa;
+$blackColor: #434344;
+
+//lists
+li {
+  list-style: none;
+}
+
+//hyperlinks
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+//paragraph
+p {
+  color: $textColor;
+  line-height: 1.4rem;
+}
+
+//flex items
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+//grid items
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+//buttons
+.btn {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.primaryBtn {
+  background: $primaryColor;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-weight: 600;
+  color: $whiteColor;
+  font-size: 12px;
+
+  &:hover {
+    background: $secondaryColor;
+    color: $blackColor;
+  }
+}
+
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.section {
+  padding: 4rem 0.2rem; 
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.icon {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.secTitle {
+  color: $textColor;
+  font-size: 20px;
+}
+
