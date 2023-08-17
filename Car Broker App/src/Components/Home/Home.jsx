@@ -2,7 +2,7 @@ import React from "react";
 import '../../css/App.css';
 
 //Imported Images
-//import homeImage from '';
+import homeImage from '../../Assets/Honda-Civic-Type-R.png';
 
 const Home = () => {
   return (
@@ -18,7 +18,7 @@ const Home = () => {
         </div>
 
         <div className="homeImage">
-          <img src='' alt="Home Image" />
+          <img src={homeImage} alt="Home Image" />
         </div>
       </div>
     </div>
