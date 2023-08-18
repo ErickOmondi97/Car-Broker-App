@@ -46,6 +46,50 @@ const Trending = () => {
               </span>
             </div>
           </div>
+          
+          <div className="singleCar grid">
+            <div className="imgDiv">
+              <img src="" alt="" />
+            </div>
+            <h5 className="carTitle">
+              Used 2019 Audi S4 Premium Plus
+            </h5>
+            <span className="miles">
+              11457 Miles
+            </span>
+            <span className="AWD">AWD 4-Cylinder Turbo</span>
+
+            <div className="price_seller flex">
+              <span className="price">
+                Ksh.1.9M 
+              </span>
+              <span className="seller">
+                Best Seller
+              </span>
+            </div>
+          </div>
+          
+          <div className="singleCar grid">
+            <div className="imgDiv">
+              <img src="" alt="" />
+            </div>
+            <h5 className="carTitle">
+              Used 2019 Audi S4 Premium Plus
+            </h5>
+            <span className="miles">
+              11457 Miles
+            </span>
+            <span className="AWD">AWD 4-Cylinder Turbo</span>
+
+            <div className="price_seller flex">
+              <span className="price">
+                Ksh.1.9M 
+              </span>
+              <span className="seller">
+                Best Seller
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
