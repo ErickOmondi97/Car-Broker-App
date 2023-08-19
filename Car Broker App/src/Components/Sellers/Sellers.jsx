@@ -29,6 +29,45 @@ const Sellers = () => {
               <p>from 2M</p>
             </span>
           </div>
+          
+          {/* Single seller */}
+          <div className="singleSeller flex">
+            <div className="imgDiv flex">
+              <img src="" alt="" className="img"/>
+            </div>
+            <span className="info">
+              <h4 className="name">
+                Mercedes Benz
+              </h4>
+              <p>from 2M</p>
+            </span>
+          </div>
+          
+          {/* Single seller */}
+          <div className="singleSeller flex">
+            <div className="imgDiv flex">
+              <img src="" alt="" className="img"/>
+            </div>
+            <span className="info">
+              <h4 className="name">
+                Volkswagen
+              </h4>
+              <p>from 2M</p>
+            </span>
+          </div>
+          
+          {/* Single seller */}
+          <div className="singleSeller flex">
+            <div className="imgDiv flex">
+              <img src="" alt="" className="img"/>
+            </div>
+            <span className="info">
+              <h4 className="name">
+                Hyundai
+              </h4>
+              <p>from 2M</p>
+            </span>
+          </div>
         </div>
       </div>
 
