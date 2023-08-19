@@ -1,0 +1,127 @@
+.auction {
+  .secContainer {
+    .secHeading {
+      justify-content: space-between;
+      padding: 1rem 0;
+
+      .navBtns {
+        gap: 0.5rem;
+
+        .icon {
+          padding: 3px 5px;
+          background: $secondaryColor;
+          border-radius: 3px;
+          font-size: 30px;
+          cursor: pointer;
+
+          &:hover {
+            background: $primaryColor;
+            color: $whiteColor;
+          }
+        }
+      }
+    }
+
+    .carContainer {
+      gap: 2rem;       
+
+      &:hover {
+        transform: translateY(-7px);
+
+        .imgDiv {
+          border: 5px solid $primaryColor;
+        }
+      }
+
+      .singleCar {
+        transition: .3s ease-in-out;
+        text-align: left;
+        padding: 1rem;
+        border-radius: 10px;
+
+        .imgDiv {
+          height: 200px;
+          width: 100%;
+          overflow: hidden;
+          border-radius: 10px;
+          border: 5px solid transparent;
+
+          img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+          }
+        }
+      
+
+        .carTitle {
+          color: $blackColor;
+          font-size: 15px;
+          padding-top: 10px;
+        }
+
+        .miles {
+          color: $blackColor;
+          opacity: 0.7;
+          font-size: 14px;
+        }
+
+        .AWD {
+          padding: 1rem 0;
+          color: $blackColor;
+          font-weight: 600;
+          font-size: 15px;
+        }
+
+        .price_buyBtn {
+          gap: 1rem;
+
+          span {
+            padding: 0.5rem 1rem;
+            border-radius: 3px;
+            font-weight: 600;
+          }
+
+          .price {
+            background: $secondaryColor;
+            color: $primaryColor;
+          }
+
+          .buyBtn {
+            background: $primaryColor;
+            color: $whiteColor;
+            cursor: pointer;
+
+            &:hover {
+              background: $secondaryColor;
+              color: $textColor;
+            }
+          }
+        }
+
+        &:hover {
+          transform: translateY(-7px);
+          padding: 1rem;
+          background: $secondaryColor;
+
+          .price_buyBtn {
+            span {
+              border: 1px solid $primaryColor;
+            }
+          }
+        }      
+      }
+
+      .singleCarActive {
+        padding: 1rem;
+        background: $secondaryColor;
+
+        .price_buyBtn {
+          span {
+            border: 1px solid $primaryColor;
+          }
+        }
+      }
+    }
+  }
+}
