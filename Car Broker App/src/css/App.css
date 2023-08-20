@@ -96,6 +96,43 @@
   box-shadow: none;
 }
 
+@media screen and (min-width: 520px) {
+  .header .logoDiv img {
+    width: 30px;
+  }
+  .header .signUp .text {
+    padding: 6px;
+    font-size: 16px;
+  }
+  .header .signUp .toggleNavbarIcon {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 520px) {
+  .header .navbar .closeIcon {
+    display: none;
+  }
+  .header .navbar .menu {
+    display: flex;
+    flex-direction: row;
+  }
+  .header .navbar .menu .listItem {
+    padding: 0.3rem 1rem;
+    border-radius: 3px;
+  }
+  .header .navbar .menu .listItem a {
+    color: #a3a3a3;
+    font-size: 15px;
+  }
+  .header .navbar .menu .listItem:hover {
+    background: #7a63f1;
+    color: #f5f4fa;
+    transition: 0.3s ease;
+  }
+  .header .navbar .menu .listItem:hover a {
+    color: #f5f4fa;
+  }
+}
 .home {
   padding-top: 8rem;
 }
@@ -510,9 +547,10 @@
   transform: translateX(5px);
   transition: 0.3s;
 }
-.footer .footerContainer .lowerDiv {
+.footer .footerContainer .lowerSection {
   padding: 1rem;
   text-align: center;
+  margin-bottom: 2.5rem;
 }
 
 * {
