@@ -114,3 +114,60 @@
   background: $secondaryColor;
   box-shadow: none;
 }
+
+//media queries to make the navbar responsive
+@media screen and (min-width: 520px) {
+  .header {
+    .logoDiv {
+      img {
+        width: 30px;
+      }
+    }
+
+    .signUp {
+      .text {
+        padding: 6px;
+        font-size: 16px;
+      }
+
+      .toggleNavbarIcon {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .header {
+    .navbar {
+      .closeIcon {
+        display: none;
+      }
+
+      .menu {
+        display: flex;
+        flex-direction: row;
+
+        .listItem {
+          padding: 0.3rem 1rem;
+          border-radius: 3px;
+
+          a {
+            color: $textColor;
+            font-size: 15px;
+          }
+
+          &:hover {
+            background: $primaryColor;
+            color: $whiteColor;
+            transition: 0.3s ease;
+          }
+
+          &:hover a {
+            color: $whiteColor;
+          }
+        }
+      }
+    }
+  }
+}
