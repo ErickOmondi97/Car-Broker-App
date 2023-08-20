@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;600:700&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Titillium+Web:wght@200;300;400;600;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap';
 @import './Components/Navbar/Navbar';
 @import './Components/config';
 @import './Components/Home/Home';
 @import './Components/Search/Search';
 @import './Components/Trending/Trending';
 @import './Components/Sellers/Sellers';
+@import './Components/Auction/Auction';
+@import './Components/Review/Review';
 
 * {
   padding: 0;
