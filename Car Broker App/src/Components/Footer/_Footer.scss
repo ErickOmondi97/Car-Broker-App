@@ -1,0 +1,37 @@
+.footer {
+  padding-top: 4rem;
+
+  .footerContainer {
+    .footerMenuDiv {
+      padding: 2rem;
+      background: $greyColor;
+      border-radius: 10px;
+      gap: 1.5rem;
+
+
+      .singleGrid {
+        .footerTitle {
+          display: block;
+          padding-bottom: .5rem;
+          font-size: 16px;
+          color: $blackColor;
+          font-weight: 700;
+        }
+
+        .footerUI {
+          gap: 5px;
+
+          .footerLi {
+            color: $textColor;
+
+            &:hover {
+              color: $blackColor;
+              transform: translateX(5px);
+              transition: 0.3s;
+            }
+          }
+        }
+      }
+    }
+  }
+}
