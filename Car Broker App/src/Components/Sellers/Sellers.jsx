@@ -2,7 +2,10 @@ import React from "react";
 import '../../css/App.css';
 
 //Imported Images
-
+import toyota from '../../Assets/toyota-logo.png';
+import hyundai from '../../Assets/hyundai-logo.png';
+import mercedes from '../../Assets/mercedes-logo.png';
+import volkswagen from '../../Assets/volkswagen.png';
 
 const Sellers = () => {
   return (
@@ -20,7 +23,7 @@ const Sellers = () => {
           {/* Single seller */}
           <div className="singleSeller flex">
             <div className="imgDiv flex">
-              <img src="" alt="" className="img"/>
+              <img src={toyota} alt="" className="Toyota Image"/>
             </div>
             <span className="info">
               <h4 className="name">
@@ -33,7 +36,7 @@ const Sellers = () => {
           {/* Single seller */}
           <div className="singleSeller flex">
             <div className="imgDiv flex">
-              <img src="" alt="" className="img"/>
+              <img src={mercedes} alt="" className="img"/>
             </div>
             <span className="info">
               <h4 className="name">
@@ -46,7 +49,7 @@ const Sellers = () => {
           {/* Single seller */}
           <div className="singleSeller flex">
             <div className="imgDiv flex">
-              <img src="" alt="" className="img"/>
+              <img src={volkswagen} alt="" className="img"/>
             </div>
             <span className="info">
               <h4 className="name">
@@ -59,7 +62,7 @@ const Sellers = () => {
           {/* Single seller */}
           <div className="singleSeller flex">
             <div className="imgDiv flex">
-              <img src="" alt="" className="img"/>
+              <img src={hyundai} alt="" className="img"/>
             </div>
             <span className="info">
               <h4 className="name">
