@@ -483,6 +483,38 @@
   border: 5px solid #7a63f1;
 }
 
+.footer {
+  padding-top: 4rem;
+}
+.footer .footerContainer .footerMenuDiv {
+  padding: 2rem;
+  background: #f4f4f4;
+  border-radius: 10px;
+  gap: 1.5rem;
+}
+.footer .footerContainer .footerMenuDiv .singleGrid .footerTitle {
+  display: block;
+  padding-bottom: 0.5rem;
+  font-size: 16px;
+  color: #434344;
+  font-weight: 700;
+}
+.footer .footerContainer .footerMenuDiv .singleGrid .footerUI {
+  gap: 5px;
+}
+.footer .footerContainer .footerMenuDiv .singleGrid .footerUI .footerLi {
+  color: #a3a3a3;
+}
+.footer .footerContainer .footerMenuDiv .singleGrid .footerUI .footerLi:hover {
+  color: #434344;
+  transform: translateX(5px);
+  transition: 0.3s;
+}
+.footer .footerContainer .lowerDiv {
+  padding: 1rem;
+  text-align: center;
+}
+
 * {
   padding: 0;
   margin: 0;
