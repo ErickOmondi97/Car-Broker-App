@@ -96,43 +96,6 @@
   box-shadow: none;
 }
 
-@media screen and (min-width: 520px) {
-  .header .logoDiv img {
-    width: 30px;
-  }
-  .header .signUp .text {
-    padding: 6px;
-    font-size: 16px;
-  }
-  .header .signUp .toggleNavbarIcon {
-    font-size: 30px;
-  }
-}
-@media screen and (min-width: 520px) {
-  .header .navbar .closeIcon {
-    display: none;
-  }
-  .header .navbar .menu {
-    display: flex;
-    flex-direction: row;
-  }
-  .header .navbar .menu .listItem {
-    padding: 0.3rem 1rem;
-    border-radius: 3px;
-  }
-  .header .navbar .menu .listItem a {
-    color: #a3a3a3;
-    font-size: 15px;
-  }
-  .header .navbar .menu .listItem:hover {
-    background: #7a63f1;
-    color: #f5f4fa;
-    transition: 0.3s ease;
-  }
-  .header .navbar .menu .listItem:hover a {
-    color: #f5f4fa;
-  }
-}
 .home {
   padding-top: 8rem;
 }
@@ -553,6 +516,201 @@
   margin-bottom: 2.5rem;
 }
 
+@media screen and (min-width: 520px) {
+  .header .logoDiv img {
+    width: 30px;
+  }
+  .header .signUp .text {
+    padding: 6px;
+    font-size: 16px;
+  }
+  .header .signUp .toggleNavbarIcon {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 770px) {
+  .header .navbar .closeIcon {
+    display: none;
+  }
+  .header .navbar .menu {
+    display: flex;
+    flex-direction: row;
+  }
+  .header .navbar .menu .listItem {
+    padding: 0.3rem 1rem;
+    border-radius: 3px;
+  }
+  .header .navbar .menu .listItem a {
+    color: #a3a3a3;
+    font-size: 15px;
+  }
+  .header .navbar .menu .listItem:hover {
+    background: #7a63f1;
+    color: #f5f4fa;
+    transition: 0.3s ease;
+  }
+  .header .navbar .menu .listItem:hover a {
+    color: #f5f4fa;
+  }
+  .header .signUp .text {
+    padding: 6px 10px;
+    font-size: 16px;
+  }
+  .header .signUp .toggleNavbarIcon {
+    display: none;
+  }
+}
+@media screen and (min-width: 1064px) {
+  .header {
+    padding: 2rem 7rem;
+  }
+  .header .navbar .menu .listItem a {
+    font-size: 17px;
+  }
+  .header .signUp .text {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .header .navbar .menu .listItem {
+    margin: 0 0.8rem;
+  }
+}
+@media screen and (min-width: 520px) {
+  .home .secContainer .homeText .homeSpan {
+    font-size: 18px;
+  }
+  .home .secContainer .homeTitle {
+    font-size: 35px;
+  }
+  .home .secContainer .btns .btn {
+    font-size: 14px;
+  }
+  .home .homeImage {
+    max-width: 85%;
+  }
+}
+@media screen and (min-width: 770px) {
+  .home {
+    padding-top: 10rem;
+  }
+  .home .secContainer {
+    gap: 2.5rem;
+  }
+  .home .secContainer .homeText .homeSpan {
+    font-size: 21px;
+  }
+  .home .secContainer .homeTitle {
+    font-size: 45px;
+  }
+  .home .secContainer .btns {
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 996px) {
+  .home {
+    padding-top: 12rem;
+  }
+  .home .secContainer {
+    gap: 3rem;
+  }
+  .home .secContainer .homeText .homeSpan {
+    font-size: 25px;
+  }
+  .home .secContainer .homeTitle {
+    font-size: 55px;
+  }
+  .home .secContainer .btns .btn {
+    font-size: 16px;
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (min-width: 520px) {
+  .search .title {
+    font-size: 25px;
+    padding: 2rem 0;
+  }
+  .search .searchDiv input {
+    padding: 10px;
+    font-weight: 600;
+    color: #7a63f1;
+    border-radius: 3px;
+  }
+  .search .searchDiv .btn {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 16px;
+  }
+  .search .searchDiv .btn .icon {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 770px) {
+  .search .title {
+    font-size: 30px;
+    padding: 2rem 0;
+  }
+  .search .searchDiv {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 770px) {
+  .search {
+    width: 80%;
+    margin: auto;
+  }
+  .search .searchDiv {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media screen and (min-width: 520px) {
+  .trending .secContainer .secHeading {
+    margin-bottom: 1rem;
+  }
+  .trending .secContainer .secHeading .secTitle {
+    font-size: 23px;
+  }
+  .trending .secContainer .secHeading .navBtns {
+    gap: 0.5rem;
+  }
+  .trending .secContainer .secHeading .navBtns .icon {
+    font-size: 40px;
+  }
+  .trending .secContainer .carContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .trending .secContainer .carContainer .singleCar .carTitle {
+    font-size: 18px;
+  }
+  .trending .secContainer .carContainer .singleCar .miles .AWD {
+    font-size: 16px;
+  }
+  .trending .secContainer .carContainer .singleCar .rice_seller span {
+    font-weight: 600;
+  }
+}
+@media screen and (min-width: 940px) {
+  .trending .secContainer .secHeading .secTitle {
+    font-size: 28px;
+  }
+  .trending .secContainer .secHeading .navBtns {
+    gap: 1rem;
+  }
+  .trending .secContainer .carContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 520px) {
+  .section {
+    padding: 6rem 0 4rem;
+  }
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
 * {
   padding: 0;
   margin: 0;
