@@ -262,7 +262,7 @@
             font-size: 18px;
           }
 
-          .miles .AWD{
+          .miles, .AWD{
             font-size: 16px;
           }
 
@@ -299,7 +299,7 @@
 }
 
 //MAIN APP
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 940px) {
   .section {
     padding: 6rem 0 4rem;
   }
@@ -307,5 +307,158 @@
   .container {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 75%;
+  }
+}
+
+//SELLERS
+@media screen and (min-width: 520px) {
+  .sellers {
+    display: grid;
+    .secContainer {
+      .secHeading {
+        margin-top: 2rem;
+
+        .secTitle {
+          font-size: 25px;
+        }
+
+        p {
+          font-size: 18px;
+        }
+      }
+
+      .sellersContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+
+        .singleSeller {
+          gap: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .sellers {
+    display: grid;
+    .secContainer {
+      .secHeading {
+        .secTitle {
+          font-size: 30px;
+        }
+
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+//AUCTION
+@media screen and (min-width: 520px) {
+  .auction {
+    .secContainer {
+      .secHeading {
+        margin-top: 1rem;
+
+        .secTitle {
+          font-size: 23px;
+        }
+
+        .navBtns {
+          gap: .5rem;
+  
+          .icon {
+            font-size: 40px;
+          }
+        }
+      }
+
+      .carContainer {
+        grid-template-columns: repeat(2, 1fr);
+  
+        .singleCar {
+          .carTitle {
+            font-size: 18px;
+          }
+  
+          .miles, .AWD {
+            font-size: 16px;
+          }
+  
+          .price_buyBtn {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .auction {
+    .secContainer {
+      .secHeading {
+        .secTitle {
+          font-size: 28px;
+        }
+
+        .navBtns {
+          gap: 1rem;
+        }
+      }      
+
+      
+
+      .carContainer {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }    
+  }
+}
+
+//REVIEW
+@media screen and (min-width: 520px) {
+  .review {
+    .secContainer {
+      .secHeading {
+        margin-top: 1rem;
+      }
+
+      .secTitle {
+        font-size: 23px;
+      }
+
+      .navBtns {
+        gap: .5rem;
+
+        .icon {
+          font-size: 40px;
+        }
+      }
+    }
+
+    .reviewContainer {
+      grid-template-columns: repeat(2, 1fr);
+      
+      .singleReview{
+        .reviewTitle {
+          font-size: 18px;
+        }
+
+        .desc {
+          font-size: 16px;
+        }
+      }
+    }
   }
 }
