@@ -10,7 +10,7 @@ import volkswagen from '../../Assets/volkswagen.png';
 const Sellers = () => {
   return (
     <div className='sellers section'>
-      <div className="secContainer container">
+      <div className="secContainer container grid">
         <div className="secHeading grid">
           <h3 className="secTitle">
             Explore top sellers in town
