@@ -6,6 +6,13 @@ import {BsArrowLeftShort} from 'react-icons/bs';
 import {BsArrowRightShort} from 'react-icons/bs';
 import {AiFillStar} from 'react-icons/ai';
 
+//import images
+import rangeRover from '../../Assets/rangerover.png';
+import landRoverDiscovery from '../../Assets/landrover-discovery.png';
+import subaruAscent from '../../Assets/subaru-ascent.png';
+import subaruForester from '../../Assets/subaru-forester.png';
+import volkswagenAtlas from '../../Assets/volkswagen-atlas.png';
+import toyotaVenza from '../../Assets/toyota-venza.png';
 
 const Review = () => {
   return (
@@ -25,7 +32,7 @@ const Review = () => {
           {/* single review */}
           <div className="singleReview grid">
             <div className="imgDiv">
-              <img src="" alt="" />
+              <img src={rangeRover} alt="Range Rover" />
             </div>
 
             <h5 className="reviewTitle">
@@ -58,7 +65,7 @@ const Review = () => {
           {/* single review */}
           <div className="singleReview grid">
             <div className="imgDiv">
-              <img src="" alt="" />
+              <img src={landRoverDiscovery} alt="Land Rover Discovery" />
             </div>
 
             <h5 className="reviewTitle">
@@ -91,7 +98,7 @@ const Review = () => {
           {/* single review */}
           <div className="singleReview grid">
             <div className="imgDiv">
-              <img src="" alt="" />
+              <img src={subaruAscent} alt="Subaru Ascent" />
             </div>
 
             <h5 className="reviewTitle">
@@ -124,7 +131,7 @@ const Review = () => {
           {/* single review */}
           <div className="singleReview grid">
             <div className="imgDiv">
-              <img src="" alt="" />
+              <img src={subaruForester} alt="" />
             </div>
 
             <h5 className="reviewTitle">
@@ -157,7 +164,7 @@ const Review = () => {
           {/* single review */}
           <div className="singleReview grid">
             <div className="imgDiv">
-              <img src="" alt="" />
+              <img src={volkswagenAtlas} alt="Volkswagen Atlas" />
             </div>
 
             <h5 className="reviewTitle">
@@ -190,7 +197,7 @@ const Review = () => {
           {/* single review */}
           <div className="singleReview grid">
             <div className="imgDiv">
-              <img src="" alt="" />
+              <img src={toyotaVenza} alt="Toyota Venza" />
             </div>
 
             <h5 className="reviewTitle">
