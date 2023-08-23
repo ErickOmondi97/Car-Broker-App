@@ -6,7 +6,10 @@ import {BsArrowLeftShort} from 'react-icons/bs';
 import {BsArrowRightShort} from 'react-icons/bs';
 
 //Imported Images
-
+import subaruBrz from '../../Assets/subaru-brz.png';
+import audiEtron from '../../Assets/audi etron.png';
+import bmw2Series from '../../Assets/bmw-2series.png';
+import mercedesBenzSL from '../../Assets/2023-mercedes-SL.png';
 
 const Trending = () => {
   return (
@@ -27,7 +30,7 @@ const Trending = () => {
           {/* Single Car Div */}
           <div className="singleCar grid">
             <div className="imgDiv">
-              <img src="" alt="" />
+              <img src={subaruBrz} alt="Subaru Brz" />
             </div>
             <h5 className="carTitle">
               Used 2019 Audi S4 Premium Plus
@@ -49,7 +52,7 @@ const Trending = () => {
           
           <div className="singleCar grid">
             <div className="imgDiv">
-              <img src="" alt="" />
+              <img src={audiEtron} alt="Audi Etron" />
             </div>
             <h5 className="carTitle">
               Used 2019 Audi S4 Premium Plus
@@ -71,7 +74,7 @@ const Trending = () => {
           
           <div className="singleCar grid">
             <div className="imgDiv">
-              <img src="" alt="" />
+              <img src={bmw2Series} alt="BMW 2 Series" />
             </div>
             <h5 className="carTitle">
               Used 2019 Audi S4 Premium Plus
