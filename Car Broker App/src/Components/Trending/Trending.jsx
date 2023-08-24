@@ -6,7 +6,7 @@ import {BsArrowLeftShort} from 'react-icons/bs';
 import {BsArrowRightShort} from 'react-icons/bs';
 
 //Imported Images
-import subaruBrz from '../../Assets/subaru-brz.png';
+import subaruLegacy from '../../Assets/subaru-legacy.png';
 import audiEtron from '../../Assets/audi etron.png';
 import bmw2Series from '../../Assets/bmw-2series.png';
 import mercedesBenzSL from '../../Assets/mercedes-SL.png';
@@ -41,7 +41,7 @@ const Trending = () => {
           {/* Single Car Div */}
           <div data-aos='fade-up' className="singleCar grid">
             <div className="imgDiv">
-              <img src={subaruBrz} alt="Subaru Brz" />
+              <img src={subaruLegacy} alt="Subaru Brz" />
             </div>
             <h5 className="carTitle">
               Used 2019 Audi S4 Premium Plus
