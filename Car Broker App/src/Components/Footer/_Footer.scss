@@ -18,11 +18,13 @@
           font-weight: 700;
         }
 
-        .footerUI {
+        .footerUl {
           gap: 5px;
 
           .footerLi {
             color: $textColor;
+            cursor: pointer;
+            margin-top: 1px;
 
             &:hover {
               color: $blackColor;
