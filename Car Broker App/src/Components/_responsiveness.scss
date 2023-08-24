@@ -222,7 +222,7 @@
   }
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 940px) {
   .search {
     width: 80%;
     margin: auto;
@@ -544,6 +544,12 @@
       .footerMenuDiv {
         grid-template-columns: repeat(3, 1fr);
       }
+
+      .lowerSection {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
     }
   }
 }
@@ -553,6 +559,18 @@
     .footerContainer {
       .footerMenuDiv {
         grid-template-columns: repeat(4, 1fr);
+      }
+
+      .lowerSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
       }
     }
   }
