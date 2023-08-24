@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import '../../css/App.css';
 
 //imported icons
@@ -11,12 +11,23 @@ import audiEtron from '../../Assets/audi etron.png';
 import bmw2Series from '../../Assets/bmw-2series.png';
 import mercedesBenzSL from '../../Assets/mercedes-SL.png';
 
+//imported aos
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 const Trending = () => {
+  //initial the animation
+  useEffect(()=> {
+    Aos.init({
+      duration: 2000
+    })
+  }, [])
+
   return (
     <div className='trending section'>
       <div className="secContainer container">
-        <div className="secHeading flex">
-          <h3 className="secTitle">
+        <div data-aos='fade-up' className="secHeading flex">
+          <h3 data-aos='fade-up' className="secTitle">
             Trending Near You
           </h3>
 
@@ -28,7 +39,7 @@ const Trending = () => {
 
         <div className="carContainer grid">
           {/* Single Car Div */}
-          <div className="singleCar grid">
+          <div data-aos='fade-up' className="singleCar grid">
             <div className="imgDiv">
               <img src={subaruBrz} alt="Subaru Brz" />
             </div>
@@ -50,7 +61,7 @@ const Trending = () => {
             </div>
           </div>
           
-          <div className="singleCar grid">
+          <div data-aos='fade-up' className="singleCar grid">
             <div className="imgDiv">
               <img src={audiEtron} alt="Audi Etron" />
             </div>
@@ -72,7 +83,7 @@ const Trending = () => {
             </div>
           </div>
           
-          <div className="singleCar grid">
+          <div data-aos='fade-up' className="singleCar grid">
             <div className="imgDiv">
               <img src={bmw2Series} alt="BMW 2 Series" />
             </div>
