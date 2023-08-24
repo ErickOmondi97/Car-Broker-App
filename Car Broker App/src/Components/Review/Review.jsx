@@ -7,12 +7,12 @@ import {BsArrowRightShort} from 'react-icons/bs';
 import {AiFillStar} from 'react-icons/ai';
 
 //import images
-import rangeRover from '../../Assets/rangerover.png';
-import landRoverDiscovery from '../../Assets/landrover-discovery.png';
-import subaruAscent from '../../Assets/subaru-ascent.png';
-import subaruForester from '../../Assets/subaru-forester.png';
-import volkswagenAtlas from '../../Assets/volkswagen-atlas.png';
-import toyotaVenza from '../../Assets/toyota-venza.png';
+import rangeRover from '../../Assets/rangerover-interior.png';
+import bmwX3 from '../../Assets/bmw-interior.png';
+import jaguar from '../../Assets/jaguar-interior.png';
+import subaruForester from '../../Assets/forester-interior.png';
+import AudiQ7 from '../../Assets/AudiQ7-interior.png';
+import toyotaHarrier from '../../Assets/harrier-interior.png';
 
 const Review = () => {
   return (
@@ -36,7 +36,7 @@ const Review = () => {
             </div>
 
             <h5 className="reviewTitle">
-              2023 Cadillac
+              Range Rover
             </h5>
             <span className="desc">
               Good cars are safe,fast, affordavle to purchase, economical to operate, reliable, capacious, comfortable and attractive.
@@ -65,11 +65,11 @@ const Review = () => {
           {/* single review */}
           <div className="singleReview grid">
             <div className="imgDiv">
-              <img src={landRoverDiscovery} alt="Land Rover Discovery" />
+              <img src={bmwX3} alt="BMW X3" />
             </div>
 
             <h5 className="reviewTitle">
-              2023 Cadillac
+              BMW X3
             </h5>
             <span className="desc">
               Good cars are safe,fast, affordavle to purchase, economical to operate, reliable, capacious, comfortable and attractive.
@@ -98,11 +98,11 @@ const Review = () => {
           {/* single review */}
           <div className="singleReview grid">
             <div className="imgDiv">
-              <img src={subaruAscent} alt="Subaru Ascent" />
+              <img src={jaguar} alt="Jaguar" />
             </div>
 
             <h5 className="reviewTitle">
-              2023 Cadillac
+              Jaguar
             </h5>
             <span className="desc">
               Good cars are safe,fast, affordavle to purchase, economical to operate, reliable, capacious, comfortable and attractive.
@@ -135,7 +135,7 @@ const Review = () => {
             </div>
 
             <h5 className="reviewTitle">
-              2023 Cadillac
+              Subaru Forester
             </h5>
             <span className="desc">
               Good cars are safe,fast, affordavle to purchase, economical to operate, reliable, capacious, comfortable and attractive.
@@ -164,11 +164,11 @@ const Review = () => {
           {/* single review */}
           <div className="singleReview grid">
             <div className="imgDiv">
-              <img src={volkswagenAtlas} alt="Volkswagen Atlas" />
+              <img src={AudiQ7} alt="Volkswagen Atlas" />
             </div>
 
             <h5 className="reviewTitle">
-              2023 Cadillac
+              Audi Q7
             </h5>
             <span className="desc">
               Good cars are safe,fast, affordavle to purchase, economical to operate, reliable, capacious, comfortable and attractive.
@@ -197,11 +197,11 @@ const Review = () => {
           {/* single review */}
           <div className="singleReview grid">
             <div className="imgDiv">
-              <img src={toyotaVenza} alt="Toyota Venza" />
+              <img src={toyotaHarrier} alt="Toyota Venza" />
             </div>
 
             <h5 className="reviewTitle">
-              2023 Cadillac
+              Toyota Harrier
             </h5>
             <span className="desc">
               Good cars are safe,fast, affordavle to purchase, economical to operate, reliable, capacious, comfortable and attractive.
