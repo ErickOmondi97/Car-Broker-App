@@ -9,7 +9,7 @@ import {BsArrowRightShort} from 'react-icons/bs';
 import subaruBrz from '../../Assets/subaru-brz.png';
 import audiEtron from '../../Assets/audi etron.png';
 import bmw2Series from '../../Assets/bmw-2series.png';
-import mercedesBenzSL from '../../Assets/2023-mercedes-SL.png';
+import mercedesBenzSL from '../../Assets/mercedes-SL.png';
 
 const Trending = () => {
   return (
