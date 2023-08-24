@@ -69,7 +69,7 @@ const Review = () => {
             </div>
 
             <h5 className="reviewTitle">
-              BMW X3
+              BMW X5
             </h5>
             <span className="desc">
               Good cars are safe,fast, affordavle to purchase, economical to operate, reliable, capacious, comfortable and attractive.
