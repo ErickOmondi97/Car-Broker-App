@@ -113,3 +113,598 @@ img {
   font-size: 20px;
 }
 
+//NAVBAR
+@media screen and (min-width: 520px) {
+  .header {
+    .logoDiv {
+      img {
+        width: 30px;
+      }
+    }
+
+    .signUp {
+      .text {
+        padding: 6px;
+        font-size: 16px;
+      }
+
+      .toggleNavbarIcon {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .header {
+    .navbar {
+      .closeIcon {
+        display: none;
+      }
+
+      .menu {
+        display: flex;
+        flex-direction: row;
+
+        .listItem {
+          padding: 0.3rem 1rem;
+          border-radius: 3px;
+
+          a {
+            color: $textColor;
+            font-size: 15px;
+          }
+
+          &:hover {
+            background: $primaryColor;
+            color: $whiteColor;
+            transition: 0.3s ease;
+          }
+
+          &:hover a {
+            color: $whiteColor;
+          }
+        }
+      }
+    }
+
+    .signUp {
+      .text {
+        padding: 6px 10px;
+        font-size: 16px;
+      }
+
+      .toggleNavbarIcon {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1064px) {
+  .header {
+    padding: 2rem 7rem;
+    
+    .navbar {
+      .menu {
+        .listItem {
+          a {
+            font-size: 17px;
+          }
+        }
+      }
+    }
+
+    .signUp {
+      .text {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .header {
+    .navbar {
+      .menu {
+        .listItem {
+          margin: 0 0.8rem;
+        }
+      }
+    }
+  }
+}
+
+//HOME
+@media screen and (min-width: 520px) {
+  .home {
+    .secContainer {
+      .homeText {
+        .homeSpan {
+          font-size: 18px;
+        }
+      }
+  
+      .homeTitle {
+        font-size: 35px;
+      }
+
+      .btns {
+        .btn {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .homeImage {
+      max-width: 85%;
+    }
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .home {
+    padding-top: 10rem;
+
+    .secContainer {
+      gap: 2.5rem;
+
+      .homeText {
+        .homeSpan {
+          font-size: 21px;
+        }
+      }
+  
+      .homeTitle {
+        font-size: 45px;
+      }
+
+      .btns {
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 996px) {
+  .home {
+    padding-top: 12rem;
+
+    .secContainer {
+      gap: 3rem;
+
+      .homeText {
+        .homeSpan {
+          font-size: 25px;
+        }
+      }
+  
+      .homeTitle {
+        font-size: 55px;
+      }
+
+      .btns {
+        .btn {
+          font-size: 16px;
+          padding: 1rem 2rem;
+        }
+      }
+    }
+  }
+}
+
+//SEARCH
+@media screen and (min-width: 520px) {
+  .search {
+    .title {
+      font-size: 25px;
+      padding: 2rem 0;
+    }
+
+    .searchDiv {
+      input {
+        padding: 10px;
+        font-weight: 600;
+        color: $primaryColor;
+        border-radius: 3px;
+      }
+
+      .btn {
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        gap: 0.3rem;
+        font-size: 16px;
+
+        .icon {
+          font-size: 18px;
+        } 
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .search {
+    .title {
+      font-size: 30px;
+      padding: 2rem 0;
+    }
+
+    .searchDiv {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .search {
+    width: 80%;
+    margin: auto;
+
+    .searchDiv {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+}
+
+//TRENDING
+@media screen and (min-width: 520px) {
+  .trending {
+    .secContainer {
+      .secHeading {
+        margin-bottom: 1rem;
+
+        .secTitle {
+          font-size: 23px;
+        }
+
+        .navBtns {
+          gap: 0.5rem;
+
+          .icon {
+            font-size: 40px;
+          }
+
+        }
+      }
+
+      .carContainer {
+        grid-template-columns: repeat(2, 1fr);
+
+        .singleCar {
+          .carTitle {
+            font-size: 18px;
+          }
+
+          .miles, .AWD{
+            font-size: 16px;
+          }
+
+          .price_seller {
+            span {
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .trending {
+    .secContainer {
+      .secHeading {
+
+        .secTitle {
+          font-size: 28px;
+        }
+
+        .navBtns {
+          gap: 1rem;
+        }
+      }
+
+      .carContainer {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+}
+
+//MAIN APP
+@media screen and (min-width: 940px) {
+  .section {
+    padding: 6rem 0 4rem;
+  }
+
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+}
+
+//SELLERS
+@media screen and (min-width: 520px) {
+  .sellers {
+    display: grid;
+    .secContainer {
+      .secHeading {
+        margin-top: 2rem;
+
+        .secTitle {
+          font-size: 25px;
+        }
+
+        p {
+          font-size: 18px;
+        }
+      }
+
+      .sellersContainer {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1.5rem;
+
+        .singleSeller {
+          gap: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .sellers {
+    display: grid;
+    .secContainer {
+      .secHeading {
+        .secTitle {
+          font-size: 30px;
+        }
+
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+//AUCTION
+@media screen and (min-width: 520px) {
+  .auction {
+    .secContainer {
+      .secHeading {
+        margin-top: 1rem;
+
+        .secTitle {
+          font-size: 23px;
+        }
+
+        .navBtns {
+          gap: .5rem;
+  
+          .icon {
+            font-size: 40px;
+          }
+        }
+      }
+
+      .carContainer {
+        grid-template-columns: repeat(2, 1fr);
+  
+        .singleCar {
+          .carTitle {
+            font-size: 18px;
+          }
+  
+          .miles, .AWD {
+            font-size: 16px;
+          }
+  
+          .price_buyBtn {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .auction {
+    .secContainer {
+      .secHeading {
+        .secTitle {
+          font-size: 28px;
+        }
+
+        .navBtns {
+          gap: 1rem;
+        }
+      } 
+      
+      .carContainer {
+        grid-template-columns: repeat(4,1fr);
+      }     
+    }    
+  }
+}
+
+//REVIEW
+@media screen and (min-width: 520px) {
+  .review {
+    .secContainer {
+      .secHeading {
+        margin-top: 1rem;
+      }
+
+      .secTitle {
+        font-size: 23px;
+      }
+
+      .navBtns {
+        gap: .5rem;
+
+        .icon {
+          font-size: 40px;
+        }
+      }
+    }
+
+    .reviewContainer {
+      grid-template-columns: repeat(2, 1fr);
+      
+      .singleReview{
+        .reviewTitle {
+          font-size: 18px;
+        }
+
+        .desc {
+          font-size: 16px;
+        }
+
+        .reviewerDiv {
+          .leftDiv {
+            .aboutReviewer {
+              .name {
+                font-size: 17px;
+              }
+
+              p {
+                font-size: 16px;
+              }
+            }
+          }
+
+          .rightDiv {
+            .icon {
+              font-size: 16px;
+            }
+
+            blockquote {
+              font-weight: 600;
+              font-size: 17px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .review {
+    .secContainer {
+      .secHeading {
+        
+        .secTitle {
+          font-size: 23px;
+        }
+
+        .navBtns {
+          gap: 1rem;
+        }
+      }
+    }
+
+    .reviewContainer {
+      grid-template-columns: repeat(3, 1fr);      
+    }
+  }
+}
+
+//FOOTER
+@media screen and (min-width: 520px) {
+  .footer {
+    .footerContainer {
+      .footerMenuDiv {
+        grid-template-columns: repeat(2, 1fr);
+
+        .singleGrid {
+          .footerTitle {
+            font-size: 17px;
+          }
+
+          .footerUl {
+            gap: 5px;
+
+            .footerLi {
+              color: $textColor;
+            }
+          }
+        }
+      }
+
+      .lowerSection {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .footer {
+    .footerContainer {
+      .footerMenuDiv {
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .lowerSection {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .footer {
+    .footerContainer {
+      .footerMenuDiv {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .lowerSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+//SELECTION AND SIDEBAR
+::selection {
+  background: $primaryColor;
+  color: $whiteColor;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: $secondaryColor;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $primaryColor;
+  border-radius: 3px;
+}
+
+
