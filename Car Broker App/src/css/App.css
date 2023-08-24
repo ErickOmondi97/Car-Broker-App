@@ -139,7 +139,7 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 940px) {
   .search {
     width: 80%;
     margin: auto;
@@ -339,10 +339,25 @@
   .footer .footerContainer .footerMenuDiv {
     grid-template-columns: repeat(3, 1fr);
   }
+  .footer .footerContainer .lowerSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 @media screen and (min-width: 940px) {
   .footer .footerContainer .footerMenuDiv {
     grid-template-columns: repeat(4, 1fr);
+  }
+  .footer .footerContainer .lowerSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footerContainer .lowerSection p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 .header {
@@ -950,4 +965,384 @@ img {
 .secTitle {
   color: #434344;
   font-size: 20px;
+}
+
+@media screen and (min-width: 520px) {
+  .header .logoDiv img {
+    width: 30px;
+  }
+  .header .signUp .text {
+    padding: 6px;
+    font-size: 16px;
+  }
+  .header .signUp .toggleNavbarIcon {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 770px) {
+  .header .navbar .closeIcon {
+    display: none;
+  }
+  .header .navbar .menu {
+    display: flex;
+    flex-direction: row;
+  }
+  .header .navbar .menu .listItem {
+    padding: 0.3rem 1rem;
+    border-radius: 3px;
+  }
+  .header .navbar .menu .listItem a {
+    color: #a3a3a3;
+    font-size: 15px;
+  }
+  .header .navbar .menu .listItem:hover {
+    background: #7a63f1;
+    color: #f5f4fa;
+    transition: 0.3s ease;
+  }
+  .header .navbar .menu .listItem:hover a {
+    color: #f5f4fa;
+  }
+  .header .signUp .text {
+    padding: 6px 10px;
+    font-size: 16px;
+  }
+  .header .signUp .toggleNavbarIcon {
+    display: none;
+  }
+}
+@media screen and (min-width: 1064px) {
+  .header {
+    padding: 2rem 7rem;
+  }
+  .header .navbar .menu .listItem a {
+    font-size: 17px;
+  }
+  .header .signUp .text {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .header .navbar .menu .listItem {
+    margin: 0 0.8rem;
+  }
+}
+@media screen and (min-width: 520px) {
+  .home .secContainer .homeText .homeSpan {
+    font-size: 18px;
+  }
+  .home .secContainer .homeTitle {
+    font-size: 35px;
+  }
+  .home .secContainer .btns .btn {
+    font-size: 14px;
+  }
+  .home .homeImage {
+    max-width: 85%;
+  }
+}
+@media screen and (min-width: 770px) {
+  .home {
+    padding-top: 10rem;
+  }
+  .home .secContainer {
+    gap: 2.5rem;
+  }
+  .home .secContainer .homeText .homeSpan {
+    font-size: 21px;
+  }
+  .home .secContainer .homeTitle {
+    font-size: 45px;
+  }
+  .home .secContainer .btns {
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 996px) {
+  .home {
+    padding-top: 12rem;
+  }
+  .home .secContainer {
+    gap: 3rem;
+  }
+  .home .secContainer .homeText .homeSpan {
+    font-size: 25px;
+  }
+  .home .secContainer .homeTitle {
+    font-size: 55px;
+  }
+  .home .secContainer .btns .btn {
+    font-size: 16px;
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (min-width: 520px) {
+  .search .title {
+    font-size: 25px;
+    padding: 2rem 0;
+  }
+  .search .searchDiv input {
+    padding: 10px;
+    font-weight: 600;
+    color: #7a63f1;
+    border-radius: 3px;
+  }
+  .search .searchDiv .btn {
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 16px;
+  }
+  .search .searchDiv .btn .icon {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 770px) {
+  .search .title {
+    font-size: 30px;
+    padding: 2rem 0;
+  }
+  .search .searchDiv {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 940px) {
+  .search {
+    width: 80%;
+    margin: auto;
+  }
+  .search .searchDiv {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media screen and (min-width: 520px) {
+  .trending .secContainer .secHeading {
+    margin-bottom: 1rem;
+  }
+  .trending .secContainer .secHeading .secTitle {
+    font-size: 23px;
+  }
+  .trending .secContainer .secHeading .navBtns {
+    gap: 0.5rem;
+  }
+  .trending .secContainer .secHeading .navBtns .icon {
+    font-size: 40px;
+  }
+  .trending .secContainer .carContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .trending .secContainer .carContainer .singleCar .carTitle {
+    font-size: 18px;
+  }
+  .trending .secContainer .carContainer .singleCar .miles, .trending .secContainer .carContainer .singleCar .AWD {
+    font-size: 16px;
+  }
+  .trending .secContainer .carContainer .singleCar .price_seller span {
+    font-weight: 600;
+  }
+}
+@media screen and (min-width: 940px) {
+  .trending .secContainer .secHeading .secTitle {
+    font-size: 28px;
+  }
+  .trending .secContainer .secHeading .navBtns {
+    gap: 1rem;
+  }
+  .trending .secContainer .carContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 940px) {
+  .section {
+    padding: 6rem 0 4rem;
+  }
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 520px) {
+  .sellers {
+    display: grid;
+  }
+  .sellers .secContainer .secHeading {
+    margin-top: 2rem;
+  }
+  .sellers .secContainer .secHeading .secTitle {
+    font-size: 25px;
+  }
+  .sellers .secContainer .secHeading p {
+    font-size: 18px;
+  }
+  .sellers .secContainer .sellersContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .sellers .secContainer .sellersContainer .singleSeller {
+    gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 840px) {
+  .sellers {
+    display: grid;
+  }
+  .sellers .secContainer .secHeading .secTitle {
+    font-size: 30px;
+  }
+  .sellers .secContainer .secHeading p {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 520px) {
+  .auction .secContainer .secHeading {
+    margin-top: 1rem;
+  }
+  .auction .secContainer .secHeading .secTitle {
+    font-size: 23px;
+  }
+  .auction .secContainer .secHeading .navBtns {
+    gap: 0.5rem;
+  }
+  .auction .secContainer .secHeading .navBtns .icon {
+    font-size: 40px;
+  }
+  .auction .secContainer .carContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .auction .secContainer .carContainer .singleCar .carTitle {
+    font-size: 18px;
+  }
+  .auction .secContainer .carContainer .singleCar .miles, .auction .secContainer .carContainer .singleCar .AWD {
+    font-size: 16px;
+  }
+  .auction .secContainer .carContainer .singleCar .price_buyBtn {
+    font-weight: 600;
+  }
+}
+@media screen and (min-width: 940px) {
+  .auction .secContainer .secHeading .secTitle {
+    font-size: 28px;
+  }
+  .auction .secContainer .secHeading .navBtns {
+    gap: 1rem;
+  }
+  .auction .secContainer .carContainer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 520px) {
+  .review .secContainer .secHeading {
+    margin-top: 1rem;
+  }
+  .review .secContainer .secTitle {
+    font-size: 23px;
+  }
+  .review .secContainer .navBtns {
+    gap: 0.5rem;
+  }
+  .review .secContainer .navBtns .icon {
+    font-size: 40px;
+  }
+  .review .reviewContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .review .reviewContainer .singleReview .reviewTitle {
+    font-size: 18px;
+  }
+  .review .reviewContainer .singleReview .desc {
+    font-size: 16px;
+  }
+  .review .reviewContainer .singleReview .reviewerDiv .leftDiv .aboutReviewer .name {
+    font-size: 17px;
+  }
+  .review .reviewContainer .singleReview .reviewerDiv .leftDiv .aboutReviewer p {
+    font-size: 16px;
+  }
+  .review .reviewContainer .singleReview .reviewerDiv .rightDiv .icon {
+    font-size: 16px;
+  }
+  .review .reviewContainer .singleReview .reviewerDiv .rightDiv blockquote {
+    font-weight: 600;
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 940px) {
+  .review .secContainer .secHeading .secTitle {
+    font-size: 23px;
+  }
+  .review .secContainer .secHeading .navBtns {
+    gap: 1rem;
+  }
+  .review .reviewContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 520px) {
+  .footer .footerContainer .footerMenuDiv {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer .footerContainer .footerMenuDiv .singleGrid .footerTitle {
+    font-size: 17px;
+  }
+  .footer .footerContainer .footerMenuDiv .singleGrid .footerUl {
+    gap: 5px;
+  }
+  .footer .footerContainer .footerMenuDiv .singleGrid .footerUl .footerLi {
+    color: #a3a3a3;
+  }
+  .footer .footerContainer .lowerSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 770px) {
+  .footer .footerContainer .footerMenuDiv {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer .footerContainer .lowerSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 940px) {
+  .footer .footerContainer .footerMenuDiv {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footer .footerContainer .lowerSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .footerContainer .lowerSection p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+::-moz-selection {
+  background: #7a63f1;
+  color: #f5f4fa;
+}
+::selection {
+  background: #7a63f1;
+  color: #f5f4fa;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #ebe8fc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7a63f1;
+  border-radius: 3px;
 }/*# sourceMappingURL=App.css.map */
