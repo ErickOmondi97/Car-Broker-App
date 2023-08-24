@@ -266,7 +266,7 @@
             font-size: 16px;
           }
 
-          .rice_seller {
+          .price_seller {
             span {
               font-weight: 600;
             }
@@ -312,7 +312,7 @@
 
 @media screen and (min-width: 1024px) {
   .container {
-    width: 75%;
+    width: 100%;
   }
 }
 
@@ -335,7 +335,7 @@
 
       .sellersContainer {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2,1fr);
         gap: 1.5rem;
 
         .singleSeller {
@@ -415,13 +415,11 @@
         .navBtns {
           gap: 1rem;
         }
-      }      
-
+      } 
       
-
       .carContainer {
-        grid-template-columns: repeat(3, 1fr);
-      }
+        grid-template-columns: repeat(3,1fr);
+      }     
     }    
   }
 }
@@ -458,6 +456,103 @@
         .desc {
           font-size: 16px;
         }
+
+        .reviewerDiv {
+          .leftDiv {
+            .aboutReviewer {
+              .name {
+                font-size: 17px;
+              }
+
+              p {
+                font-size: 16px;
+              }
+            }
+          }
+
+          .rightDiv {
+            .icon {
+              font-size: 16px;
+            }
+
+            blockquote {
+              font-weight: 600;
+              font-size: 17px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .review {
+    .secContainer {
+      .secHeading {
+        
+        .secTitle {
+          font-size: 23px;
+        }
+
+        .navBtns {
+          gap: 1rem;
+        }
+      }
+    }
+
+    .reviewContainer {
+      grid-template-columns: repeat(3, 1fr);      
+    }
+  }
+}
+
+//FOOTER
+@media screen and (min-width: 520px) {
+  .footer {
+    .footerContainer {
+      .footerMenuDiv {
+        grid-template-columns: repeat(2, 1fr);
+
+        .singleGrid {
+          .footerTitle {
+            font-size: 17px;
+          }
+
+          .footerUl {
+            gap: 5px;
+
+            .footerLi {
+              color: $textColor;
+            }
+          }
+        }
+      }
+
+      .lowerSection {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .footer {
+    .footerContainer {
+      .footerMenuDiv {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .footer {
+    .footerContainer {
+      .footerMenuDiv {
+        grid-template-columns: repeat(4, 1fr);
       }
     }
   }
