@@ -9,10 +9,10 @@ const Footer = () => {
         <div className="footerMenuDiv grid">
           {/* single grid */}
           <div className="singleGrid">
-            <span className="footerTitler">
+            <span className="footerTitle">
               About
             </span>
-            <ul className="footerUI grid">
+            <ul className="footerUl grid">
               <li className="footerLi">
                 How it works
               </li>
@@ -30,10 +30,10 @@ const Footer = () => {
           
           {/* single grid */}
           <div className="singleGrid">
-            <span className="footerTitler">
+            <span className="footerTitle">
               Become Seller
             </span>
-            <ul className="footerUI grid">
+            <ul className="footerUl grid">
               <li className="footerLi">
                 Add Vehicles
               </li>
@@ -51,10 +51,10 @@ const Footer = () => {
           
           {/* single grid */}
           <div className="singleGrid">
-            <span className="footerTitler">
+            <span className="footerTitle">
               Community
             </span>
-            <ul className="footerUI grid">
+            <ul className="footerUl grid">
               <li className="footerLi">
                 Recommendations
               </li>
@@ -72,10 +72,10 @@ const Footer = () => {
           
           {/* single grid */}
           <div className="singleGrid">
-            <span className="footerTitler">
+            <span className="footerTitle">
               Booking Support
             </span>
-            <ul className="footerUI grid">
+            <ul className="footerUl grid">
               <li className="footerLi">
                  Updates for Covid-19
               </li>
