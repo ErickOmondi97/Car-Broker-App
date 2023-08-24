@@ -6,6 +6,12 @@ import { BsArrowRightShort } from 'react-icons/bs';
 import { BsArrowLeftShort } from 'react-icons/bs';
 
 //imported images
+import rangeRover from '../../Assets/rangerover.png';
+import landRoverDiscovery from '../../Assets/landrover-discovery.png';
+import subaruAscent from '../../Assets/subaru-ascent.png';
+import subaruForester from '../../Assets/subaru-forester.png';
+import volkswagenAtlas from '../../Assets/volkswagen-atlas.png';
+import toyotaVenza from '../../Assets/toyota-venza.png';
 
 const Auction = () => {
   return (
@@ -26,7 +32,7 @@ const Auction = () => {
           {/* Single Car Div */}
           <div className="singleCar grid singleCarActive">
             <div className="imgDiv">
-              <img src="" alt="" />
+              <img src={rangeRover} alt="Range Rover" />
             </div>
             <h5 className="carTitle">
               Used 2019 Audi S4 Premium Plus
@@ -51,7 +57,7 @@ const Auction = () => {
           {/* Single Car Div */}
           <div className="singleCar grid">
             <div className="imgDiv">
-              <img src="" alt="" />
+              <img src={landRoverDiscovery} alt="Land Rover Discovery" />
             </div>
             <h5 className="carTitle">
               Used 2019 Audi S4 Premium Plus
@@ -76,7 +82,7 @@ const Auction = () => {
           {/* Single Car Div */}
           <div className="singleCar grid">
             <div className="imgDiv">
-              <img src="" alt="" />
+              <img src={subaruAscent} alt="Subaru Ascent" />
             </div>
             <h5 className="carTitle">
               Used 2019 Audi S4 Premium Plus
@@ -101,7 +107,7 @@ const Auction = () => {
           {/* Single Car Div */}
           <div className="singleCar grid">
             <div className="imgDiv">
-              <img src="" alt="" />
+              <img src={subaruForester} alt="Subaru Forester" />
             </div>
             <h5 className="carTitle">
               Used 2019 Audi S4 Premium Plus
@@ -126,7 +132,7 @@ const Auction = () => {
           {/* Single Car Div */}
           <div className="singleCar grid">
             <div className="imgDiv">
-              <img src="" alt="" />
+              <img src={volkswagenAtlas} alt="Volkswagen Atlas" />
             </div>
             <h5 className="carTitle">
               Used 2019 Audi S4 Premium Plus
@@ -151,7 +157,7 @@ const Auction = () => {
           {/* Single Car Div */}
           <div className="singleCar grid">
             <div className="imgDiv">
-              <img src="" alt="" />
+              <img src={toyotaVenza} alt="Toyota Venza" />
             </div>
             <h5 className="carTitle">
               Used 2019 Audi S4 Premium Plus
