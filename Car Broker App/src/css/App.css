@@ -170,7 +170,7 @@
   .trending .secContainer .carContainer .singleCar .miles, .trending .secContainer .carContainer .singleCar .AWD {
     font-size: 16px;
   }
-  .trending .secContainer .carContainer .singleCar .rice_seller span {
+  .trending .secContainer .carContainer .singleCar .price_seller span {
     font-weight: 600;
   }
 }
@@ -196,7 +196,7 @@
 }
 @media screen and (min-width: 1024px) {
   .container {
-    width: 75%;
+    width: 100%;
   }
 }
 @media screen and (min-width: 520px) {
@@ -290,6 +290,59 @@
   }
   .review .reviewContainer .singleReview .desc {
     font-size: 16px;
+  }
+  .review .reviewContainer .singleReview .reviewerDiv .leftDiv .aboutReviewer .name {
+    font-size: 17px;
+  }
+  .review .reviewContainer .singleReview .reviewerDiv .leftDiv .aboutReviewer p {
+    font-size: 16px;
+  }
+  .review .reviewContainer .singleReview .reviewerDiv .rightDiv .icon {
+    font-size: 16px;
+  }
+  .review .reviewContainer .singleReview .reviewerDiv .rightDiv blockquote {
+    font-weight: 600;
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 940px) {
+  .review .secContainer .secHeading .secTitle {
+    font-size: 23px;
+  }
+  .review .secContainer .secHeading .navBtns {
+    gap: 1rem;
+  }
+  .review .reviewContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 520px) {
+  .footer .footerContainer .footerMenuDiv {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer .footerContainer .footerMenuDiv .singleGrid .footerTitle {
+    font-size: 17px;
+  }
+  .footer .footerContainer .footerMenuDiv .singleGrid .footerUl {
+    gap: 5px;
+  }
+  .footer .footerContainer .footerMenuDiv .singleGrid .footerUl .footerLi {
+    color: #a3a3a3;
+  }
+  .footer .footerContainer .lowerSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 770px) {
+  .footer .footerContainer .footerMenuDiv {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 940px) {
+  .footer .footerContainer .footerMenuDiv {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 .header {
@@ -792,13 +845,15 @@
   color: #434344;
   font-weight: 700;
 }
-.footer .footerContainer .footerMenuDiv .singleGrid .footerUI {
+.footer .footerContainer .footerMenuDiv .singleGrid .footerUl {
   gap: 5px;
 }
-.footer .footerContainer .footerMenuDiv .singleGrid .footerUI .footerLi {
+.footer .footerContainer .footerMenuDiv .singleGrid .footerUl .footerLi {
   color: #a3a3a3;
+  cursor: pointer;
+  margin-top: 1px;
 }
-.footer .footerContainer .footerMenuDiv .singleGrid .footerUI .footerLi:hover {
+.footer .footerContainer .footerMenuDiv .singleGrid .footerUl .footerLi:hover {
   color: #434344;
   transform: translateX(5px);
   transition: 0.3s;
