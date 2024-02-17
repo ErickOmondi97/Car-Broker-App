@@ -14,6 +14,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  
   transition: 0.2s ease-in-out;
   font-family: 'Titillium Web', sans-serif;
   margin-bottom: 10px;
@@ -519,7 +520,7 @@ img {
   }
 }
 
-@media screen and (min-width: 940px) {
+/* @media screen and (min-width: 940px) {
   .auction {
     .secContainer {
       .secHeading {
@@ -533,9 +534,38 @@ img {
       } 
       
       .carContainer {
-        grid-template-columns: repeat(4,1fr);
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 1.5rem;
+        //grid-template-columns: repeat(4,1fr);
       }     
     }    
+  }
+} */
+
+@media screen and (min-width: 940px) {
+  .auction {
+    .secHeading {
+
+      .secTitle {
+        font-size: 28px;
+      }
+
+      .navBtns {
+        gap: 1rem;
+      }
+    }
+    
+    .secContainer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      .carContainer {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
   }
 }
 

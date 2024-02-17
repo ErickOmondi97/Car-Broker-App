@@ -13,11 +13,12 @@ import subaruForester from '../../Assets/subaru-forester.png';
 import volkswagenAtlas from '../../Assets/volkswagen-atlas.png';
 import toyotaVenza from '../../Assets/toyota-venza.png';
 
+
 const Auction = () => {
+
   return (
     <div className='auction section'>
-      <div className="secContainer container">
-        <div className="secHeading flex">
+      <div className="secHeading flex">
           <h3 className="secTitle">
             Active Auction
           </h3>
@@ -26,8 +27,8 @@ const Auction = () => {
             <BsArrowLeftShort className="icon leftIcon"/>
             <BsArrowRightShort className="icon rightIcon"/>
           </div>
-        </div>
-
+      </div>
+      <div className="secContainer container">
         <div className="carContainer grid">
           {/* Single Car Div */}
           <div className="singleCar grid singleCarActive">

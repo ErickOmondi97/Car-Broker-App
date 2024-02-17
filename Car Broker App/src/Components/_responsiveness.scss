@@ -368,7 +368,7 @@
   .auction {
     .secContainer {
       .secHeading {
-        margin-top: 1rem;
+        //margin-top: 1rem;
 
         .secTitle {
           font-size: 23px;
@@ -408,6 +408,27 @@
   .auction {
     .secContainer {
       .secHeading {
+
+        .secTitle {
+          font-size: 28px;
+        }
+
+        .navBtns {
+          gap: 1rem;
+        }
+      }
+
+      .carContainer {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  }
+}
+
+/* @media screen and (min-width: 940px) {
+  .auction {
+    .secContainer {
+      .secHeading {
         .secTitle {
           font-size: 28px;
         }
@@ -418,11 +439,11 @@
       } 
       
       .carContainer {
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
       }     
     }    
   }
-}
+} */
 
 //REVIEW
 @media screen and (min-width: 520px) {
